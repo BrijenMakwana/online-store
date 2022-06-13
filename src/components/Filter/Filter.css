@@ -1,0 +1,20 @@
+.product-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 30px;
+  }
+  
+.product-dropdown{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-weight: bold;
+  }
+  
+.dropdown-menu{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+  }

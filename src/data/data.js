@@ -284,7 +284,8 @@ export const products = [
   {
     id: "29",
     title: "Cupboard",
-    image: "",
+    image:
+      "https://images.unsplash.com/photo-1595515106864-077d30192c56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     category: "Furniture",
     price: 32000,
     rating: 2.7,
@@ -400,4 +401,16 @@ export const products = [
     rating: 3.2,
     reviews: 1300,
   },
+];
+
+export const categories = [
+  { id: "1", name: "Mobiles", value: "Mobiles" },
+  {
+    id: "2",
+    name: "Electronics",
+    value: "Electronics",
+  },
+  { id: "3", name: "Furniture", value: "Furniture" },
+  { id: "4", name: "Fashion", value: "Fashion" },
+  { id: "5", name: "All", value: "All" },
 ];

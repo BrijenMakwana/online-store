@@ -1,32 +1,28 @@
 import React from "react";
 import "./Product.css";
 
-export default function Product() {
+export default function Product(props) {
   return (
     <div className="product-container">
-      <img
-        src="https://images.unsplash.com/photo-1611791484670-ce19b801d192?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-        alt="iphone"
-        className="product-image"
-      />
-      <span className="product-name">iPhone 13 Black</span>
-      <span className="product-price">Rs.56,000</span>
+      <img src={props.image} alt={props.title} className="product-image" />
+      <span className="product-name">{props.title}</span>
+      <span className="product-price">Rs.{props.price}</span>
       <div className="rating-container">
         <img
           src={require("../../images/star.png")}
           alt="iphone"
           className="rating"
         />
-        <span className="rating-text">4.5</span>
+        <span className="rating-text">{props.rating}</span>
 
         <img
           src={require("../../images/messages.png")}
           alt="iphone"
           className="rating"
         />
-        <span className="rating-text">120</span>
+        <span className="rating-text">{props.reviews}</span>
       </div>
-      <span className="category">Mobiles</span>
+      <span className="category">{props.category}</span>
     </div>
   );
 }

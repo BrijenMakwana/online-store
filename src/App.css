@@ -30,3 +30,10 @@ body{
 .search-input::placeholder{
     color: #e2e2e2;
   }
+
+  .product-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 30px;
+  }
