@@ -1,0 +1,9 @@
+body{
+    background-image: linear-gradient(to right, #fff , #f1e1c2);
+}
+
+.app{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
