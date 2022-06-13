@@ -13,7 +13,7 @@ function App() {
 
   let timeout;
 
-  // search products 2 s after user stops typing
+  // search products 1.5 s after user stops typing
   const searchProduct = (e) => {
     clearTimeout(timeout);
     timeout = setTimeout(() => {
