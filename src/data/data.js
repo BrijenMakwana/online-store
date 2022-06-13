@@ -412,5 +412,35 @@ export const categories = [
   },
   { id: "3", name: "Furniture", value: "Furniture" },
   { id: "4", name: "Fashion", value: "Fashion" },
-  { id: "5", name: "All", value: "All" },
+];
+
+export const ratings = [
+  { id: "0", name: "All", value: 0 },
+  { id: "1", name: "> 1 stars", value: 1 },
+  {
+    id: "2",
+    name: "> 2 stars",
+    value: 2,
+  },
+  { id: "3", name: "> 3 stars", value: 3 },
+  { id: "4", name: "> 4 stars", value: 4 },
+  { id: "5", name: "5 stars", value: 5 },
+];
+
+export const reviews = [
+  { id: "0", name: "All", value: 0 },
+  { id: "1", name: "> 100", value: 100 },
+  {
+    id: "2",
+    name: "> 500",
+    value: 500,
+  },
+  { id: "3", name: "> 700", value: 700 },
+  { id: "4", name: "> 1000", value: 1000 },
+  { id: "5", name: "> 2000", value: 2000 },
+];
+
+export const sorting = [
+  { id: "0", name: "Price: lower to higher", value: "l" },
+  { id: "1", name: "Price: higher to lower", value: "h" },
 ];

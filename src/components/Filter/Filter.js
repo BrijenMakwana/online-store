@@ -4,7 +4,7 @@ import "./Filter.css";
 export default function Filter(props) {
   return (
     <div className="product-dropdown">
-      Select {props.title}
+      {props.title}
       <select
         value={props.category}
         onChange={props.selectCategory}
