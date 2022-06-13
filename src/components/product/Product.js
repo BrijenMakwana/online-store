@@ -10,6 +10,7 @@ export default function Product() {
         className="product-image"
       />
       <span className="product-name">iPhone 13 Black</span>
+      <span className="product-price">Rs.56,000</span>
       <div className="rating-container">
         <img
           src={require("../../images/star.png")}

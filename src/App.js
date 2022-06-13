@@ -1,21 +1,42 @@
+import { useState } from "react";
 import "./App.css";
 import Product from "./components/product/Product";
 
 function App() {
+  const [searchText, setSearchText] = useState("");
+
+  const searchProduct = (e) => {
+    setSearchText(e.target.value);
+    // console.log(searchText);
+  };
   return (
     <div className="app">
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
-      <Product />
+      {/* search box */}
+      <div className="search-container">
+        <form>
+          <input
+            type="text"
+            placeholder="search"
+            className="search-input"
+            onChange={searchProduct}
+          ></input>
+        </form>
+      </div>
+
+      <div className="products-container">
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+        <Product />
+      </div>
     </div>
   );
 }
