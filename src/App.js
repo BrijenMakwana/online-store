@@ -9,7 +9,6 @@ function App() {
   const [category, setCategory] = useState("Mobiles");
   const [rating, setRating] = useState(0);
   const [review, setReview] = useState(0);
-  const [price, setPrice] = useState(0);
   const [sort, setSort] = useState("l");
 
   let timeout;
@@ -19,12 +18,7 @@ function App() {
     clearTimeout(timeout);
     timeout = setTimeout(() => {
       setSearchText(e.target.value);
-      console.log("ha thayu");
-    }, 2000);
-  };
-
-  const selectPrice = (e) => {
-    setPrice(e.target.value);
+    }, 1500);
   };
 
   // sort
@@ -42,6 +36,7 @@ function App() {
   return (
     <div className="app">
       <h1 className="company-name">Online Store</h1>
+
       {/* search box */}
       <div className="search-container">
         <form onSubmit={(e) => e.preventDefault()}>
@@ -56,43 +51,37 @@ function App() {
 
       {/* filters */}
       <div className="product-options">
+        {/* category filter */}
         <Filter
           title={"Category"}
           category={category}
           selectCategory={(e) => setCategory(e.target.value)}
           categories={categories}
         />
+
+        {/* ratting filter */}
         <Filter
           title={"Rating"}
           category={rating}
           selectCategory={(e) => setRating(e.target.value)}
           categories={ratings}
         />
+
+        {/* reviews filter */}
         <Filter
           title={"Reviews"}
           category={review}
           selectCategory={(e) => setReview(e.target.value)}
           categories={reviews}
         />
+
+        {/* sorting */}
         <Filter
           title={"Sorting"}
           category={sort}
           selectCategory={(e) => setSort(e.target.value)}
           categories={sorting}
         />
-        <div className="price-container">
-          <span className="price-title">Price</span>
-          <input
-            type="range"
-            min="100"
-            max="100000"
-            id="passwordLengthRange"
-            value={price}
-            onChange={selectPrice}
-            className="price-range"
-          ></input>
-          <button className="price-btn">Apply</button>
-        </div>
       </div>
 
       {/* product list */}
