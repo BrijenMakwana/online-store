@@ -16,7 +16,7 @@ function App() {
         <form>
           <input
             type="text"
-            placeholder="search"
+            placeholder="search products here"
             className="search-input"
             onChange={searchProduct}
           ></input>
@@ -24,6 +24,7 @@ function App() {
       </div>
 
       <div className="products-container">
+        <Product />
         <Product />
         <Product />
         <Product />
