@@ -401,6 +401,107 @@ export const products = [
     rating: 3.2,
     reviews: 1300,
   },
+
+  {
+    id: "41",
+    title: "Sony Mark 1",
+    image:
+      "https://images.unsplash.com/photo-1611967564293-9cc64a2fd3dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    category: "Mobiles",
+    price: 36500,
+    rating: 1,
+    reviews: 23,
+  },
+  {
+    id: "42",
+    title: "Sony Xperia 2",
+    image:
+      "https://images.unsplash.com/photo-1626427329308-a5dab712aea1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+    category: "Mobiles",
+    price: 49500,
+    rating: 1,
+    reviews: 50,
+  },
+  {
+    id: "43",
+    title: "HTC 2",
+    image:
+      "https://images.unsplash.com/photo-1599950753725-ea5d8aba0d29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    category: "Mobiles",
+    price: 79000,
+    rating: 2,
+    reviews: 130,
+  },
+  {
+    id: "44",
+    title: "HTC 3",
+    image:
+      "https://images.unsplash.com/photo-1568378711282-833f62ae0010?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80",
+    category: "Mobiles",
+    price: 18000,
+    rating: 2,
+    reviews: 358,
+  },
+  {
+    id: "45",
+    title: "Nokia Classic",
+    image:
+      "https://images.unsplash.com/photo-1512019318872-c47fed0241a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    category: "Mobiles",
+    price: 42000,
+    rating: 3,
+    reviews: 2100,
+  },
+  {
+    id: "46",
+    title: "Realme 10",
+    image:
+      "https://images.unsplash.com/photo-1559752453-b9195afa100c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    category: "Mobiles",
+    price: 20500,
+    rating: 3,
+    reviews: 400,
+  },
+  {
+    id: "47",
+    title: "LG Pro",
+    image:
+      "https://images.unsplash.com/photo-1527578982322-bb818b9d40e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    category: "Mobiles",
+    price: 26000,
+    rating: 3.5,
+    reviews: 400,
+  },
+  {
+    id: "48",
+    title: "Motorola Flip 1",
+    image:
+      "https://images.unsplash.com/photo-1614767464582-b23a647d835f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+    category: "Mobiles",
+    price: 70000,
+    rating: 3.2,
+    reviews: 3000,
+  },
+  {
+    id: "49",
+    title: "Motorola Flip 2",
+    image:
+      "https://images.unsplash.com/photo-1614767464545-533644010662?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+    category: "Mobiles",
+    price: 69000,
+    rating: 4.1,
+    reviews: 1200,
+  },
+  {
+    id: "50",
+    title: "iPhone 10",
+    image:
+      "https://images.unsplash.com/photo-1649472070259-46146d7c01b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+    category: "Mobiles",
+    price: 51500,
+    rating: 5,
+    reviews: 11300,
+  },
 ];
 
 export const categories = [
@@ -443,4 +544,6 @@ export const reviews = [
 export const sorting = [
   { id: "0", name: "Price: lower to higher", value: "l" },
   { id: "1", name: "Price: higher to lower", value: "h" },
+  { id: "2", name: "Rating: lower to higher", value: "rl" },
+  { id: "3", name: "Rating: higher to lower", value: "rh" },
 ];

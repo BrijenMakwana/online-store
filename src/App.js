@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "./App.css";
 import Filter from "./components/Filter/Filter";
 import Product from "./components/product/Product";
@@ -28,6 +28,12 @@ function App() {
       break;
     case "h":
       products.sort((a, b) => (a.price < b.price ? 1 : -1));
+      break;
+    case "rl":
+      products.sort((a, b) => (a.rating > b.rating ? 1 : -1));
+      break;
+    case "rh":
+      products.sort((a, b) => (a.rating < b.rating ? 1 : -1));
       break;
     default:
       break;

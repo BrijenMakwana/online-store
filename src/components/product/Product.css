@@ -7,10 +7,12 @@
     align-items: center;
     border-radius: 10px;
     margin: 20px;
+    transition: transform 0.5s;
 }
 
 .product-container:hover{
     background-color: #f1e1c2;
+    transform: scale(1.1)
 }
 
 .product-image{
