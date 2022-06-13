@@ -107,7 +107,7 @@ export const products = [
       "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     category: "Electronics",
     price: 21500,
-    rating: 3.9,
+    rating: 1,
     reviews: 300,
   },
   {
@@ -117,7 +117,7 @@ export const products = [
       "https://images.unsplash.com/photo-1540961403310-79825242906e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     category: "Electronics",
     price: 27000,
-    rating: 4.1,
+    rating: 1,
     reviews: 2000,
   },
   {
@@ -137,7 +137,7 @@ export const products = [
       "https://images.unsplash.com/photo-1642018929698-8d86f43ffcd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
     category: "Electronics",
     price: 35000,
-    rating: 2.3,
+    rating: 2,
     reviews: 58,
   },
   {
@@ -147,7 +147,7 @@ export const products = [
       "https://images.unsplash.com/photo-1624241510249-882f06e0386a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=700&q=80",
     category: "Electronics",
     price: 32000,
-    rating: 1.8,
+    rating: 3.8,
     reviews: 10,
   },
   {
@@ -157,7 +157,7 @@ export const products = [
       "https://images.unsplash.com/photo-1577979749830-f1d742b96791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     category: "Electronics",
     price: 29999,
-    rating: 4.2,
+    rating: 3.2,
     reviews: 1890,
   },
   {
@@ -187,7 +187,7 @@ export const products = [
       "https://images.unsplash.com/photo-1633609052523-098d5cd58029?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     category: "Electronics",
     price: 1900,
-    rating: 3.1,
+    rating: 5,
     reviews: 1209,
   },
   {
@@ -208,7 +208,7 @@ export const products = [
       "https://images.unsplash.com/photo-1519947486511-46149fa0a254?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     category: "Furniture",
     price: 2000,
-    rating: 3.2,
+    rating: 0.4,
     reviews: 7200,
   },
   {
@@ -218,7 +218,7 @@ export const products = [
       "https://images.unsplash.com/photo-1596485206311-2da5fafb3606?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     category: "Furniture",
     price: 4500,
-    rating: 1.1,
+    rating: 0.7,
     reviews: 2030,
   },
   {
@@ -238,7 +238,7 @@ export const products = [
       "https://images.unsplash.com/photo-1594125674956-61a9b49c8ecc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     category: "Furniture",
     price: 17000,
-    rating: 4.5,
+    rating: 1.5,
     reviews: 458,
   },
   {
@@ -248,7 +248,7 @@ export const products = [
       "https://images.unsplash.com/photo-1519961655809-34fa156820ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     category: "Furniture",
     price: 43000,
-    rating: 4.0,
+    rating: 1,
     reviews: 127,
   },
   {
@@ -298,7 +298,7 @@ export const products = [
       "https://images.unsplash.com/photo-1558997519-83ea9252edf8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
     category: "Furniture",
     price: 45000,
-    rating: 4.2,
+    rating: 5,
     reviews: 1300,
   },
   {
