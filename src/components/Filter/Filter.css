@@ -13,3 +13,13 @@
     border-radius: 4px;
     background-color: #fff;
   }
+
+  @media screen and (max-width: 480px) {
+    .dropdown-menu{
+      width: 200px;
+    }
+
+    .product-dropdown{
+      margin-top: 10px;
+    }
+  }

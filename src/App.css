@@ -42,40 +42,23 @@ body{
     
   }
 
-.price-container{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   margin-left: 20px;
-  }
-
-.price-title{
-  font-size: 18px;
-  font-weight: bold;
-  }
-
-.price-range{
-  width: 200px;
-  height: 5px;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-.price-btn{
-  padding: 8px 10px;
-  background-color: #fff;
-  margin-top: 15px;
-  border: none;
-  border-radius: 5px;
-}
-
-.price-btn:hover{
-  background-color:#f1e1c2 ;
-}
-
 .products-container{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+
+  .company-name{
+  
+    font-size: 40px;
+  }
+
+  .product-options{
+    flex-direction: column;
+  
+  }
+
 }
